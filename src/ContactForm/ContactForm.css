@@ -1,0 +1,59 @@
+.loading_text {
+  text-align: 'center';
+  width: 80%;
+  margin-left: 10%;
+}
+
+.contact_form_container {
+  margin: 2rem;
+  padding: 1rem;
+  width: 45%;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_label {
+  margin-top: .5rem;
+  margin-left: 5%;
+  width: 90%;
+  text-align: center;
+}
+
+.form_input {
+  width: 40%;
+}
+
+.form_error_msg {
+  color: red;
+  margin: 0;
+}
+
+.contact_exists_error {
+  color: red;
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+.success_message {
+  color: green;
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+.submit_record_btn {
+  width: 50%;
+  margin-left: 25%;
+  font-size: 1rem;
+  padding: .33rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 5%;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
